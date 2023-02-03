@@ -10,7 +10,7 @@ pushd $SOURCES_PATH > /dev/null
     # 初始化当前环境
     ./bootstrap.sh -j
     # 配置编译环境
-    ./configure --prefix=$NSTALL_PATH
+    ./configure --prefix="${INSTALL_PATH}"
     # 编译
     make
     # 安装
